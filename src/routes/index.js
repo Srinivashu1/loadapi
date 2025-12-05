@@ -6,7 +6,7 @@ const router = Router();
 
 router.get("/", (req, res) => {
   res.json({
-    name: "Bright API",
+    name: "API",
     version: "1.0.0",
     routes: [
       { method: "GET", path: "/api" },
